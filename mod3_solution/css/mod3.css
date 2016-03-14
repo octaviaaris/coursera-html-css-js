@@ -1,7 +1,91 @@
+body {
+  background-color: #001a00;
+  font-family: 'Lora', serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #009900;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #b3b3b3;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: .75;
+}
+
+.navbar-collapse {
+  padding:0;
+  margin-bottom: -60px;
+}
+
+#nav-list {
+  margin:0;
+}
+
+#nav-list li a{
+  font-size: 1.2em;
+  color: white;
+  text-align: middle;
+}
+
+#nav-list a:hover {
+  font-size: 1.5em;
+}
+
+#nav-list div {
+  border-bottom: 1px solid white;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f2f2f2;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -42px;
+}
+
+.navbar-header button.navbar-toggle, span {
+  border: 1px solid #009900;
+}
+
+/** END HEADER**/
+
+/** BODY **/
+
+.menu-items h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.menu-items {
+  background-color: #b3b3b3;
+  min-height: 1000px;
+  margin-bottom: 10px;
+}
+
+p.top a {
+  color: #f2f2f2;
+  text-decoration: underline;
+}
+
+/** END BODY **/
+
 /********** Medium devices only (desktop) **********/
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
+    f
+    loat: left;
   }
   .col-md-1 {
     width: 8.33%;
@@ -123,4 +207,8 @@
   .col-xs-12 {
     width: 100%;
   }
+
+  .navbar-collapse {
+    background-color: #009900;
+}
 }
